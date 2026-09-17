@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>کتاب‌فروشی مطالعه</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <span class="logo">📚</span>
+        <h1>کتاب‌فروشی مطالعه</h1>
+        <p class="description">مرجع خرید آنلاین کتاب</p>
+    </header>
+
+    <main>
+
+        <section id="books" class="section">
+
+            <h2>کتاب‌های پرفروش</h2>
+
+            <div class="book-grid">
+
+                <article class="book" data-id="1" data-featured="true">
+                    <img class="book-cover" src="https://picsum.photos/seed/book1/160/220" alt="جلد کتاب صد سال تنهایی">
+                    <div class="book-body">
+                        <h3 class="book-title">صد سال تنهایی</h3>
+                        <div class="meta">
+                            <span class="author">گابریل گارسیا مارکز</span>
+                            <span class="rating" data-value="4.8">4.8 ★</span>
+                        </div>
+                        <span class="price" data-toman="185000">185,000 تومان</span>
+                        <a class="book-link" href="https://www.iranketab.ir/book/155-one-hundred-years-of-solitude">مشاهده کتاب</a>
+                    </div>
+                </article>
+
+                <article class="book" data-id="2" data-featured="false">
+                    <img class="book-cover" src="https://picsum.photos/seed/book2/160/220" alt="جلد کتاب بوف کور">
+                    <div class="book-body">
+                        <h3 class="book-title">بوف کور</h3>
+                        <div class="meta">
+                            <span class="author">صادق هدایت</span>
+                            <span class="rating" data-value="4.5">4.5 ★</span>
+                        </div>
+                        <span class="price" data-toman="95000">95,000 تومان</span>
+                        <a class="book-link" href="https://www.iranketab.ir/book/1335-the-blind-owl">مشاهده کتاب</a>
+                    </div>
+                </article>
+
+                <article class="book" data-id="3" data-featured="false">
+                    <img class="book-cover" src="https://picsum.photos/seed/book3/160/220" alt="جلد کتاب کیمیاگر">
+                    <div class="book-body">
+                        <h3 class="book-title">کیمیاگر</h3>
+                        <div class="meta">
+                            <span class="author">پائولو کوئیلو</span>
+                            <span class="rating" data-value="4.6">4.6 ★</span>
+                        </div>
+                        <span class="price" data-toman="120000">120,000 تومان</span>
+                        <a class="book-link" href="https://taaghche.com/book/1014/%DA%A9%DB%8C%D9%85%DB%8C%D8%A7%DA%AF%D8%B1">مشاهده کتاب</a>
+                    </div>
+                </article>
+
+                <article class="book" data-id="4" data-featured="true">
+                    <img class="book-cover" src="https://picsum.photos/seed/book4/160/220" alt="جلد کتاب جنایت و مکافات">
+                    <div class="book-body">
+                        <h3 class="book-title">جنایت و مکافات</h3>
+                        <div class="meta">
+                            <span class="author">فئودور داستایوفسکی</span>
+                            <span class="rating" data-value="4.9">4.9 ★</span>
+                        </div>
+                        <span class="price" data-toman="210000">210,000 تومان</span>
+                        <a class="book-link" href="https://www.iranketab.ir/book/849-crime-and-punishment">مشاهده کتاب</a>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+        <section id="stock" class="section">
+
+            <h2>موجودی انبار</h2>
+
+            <table id="stock-table">
+                <thead>
+                    <tr>
+                        <th>کتاب</th>
+                        <th>موجودی</th>
+                        <th>وضعیت</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>صد سال تنهایی</td>
+                        <td>12</td>
+                        <td><span class="badge in-stock">موجود</span></td>
+                    </tr>
+                    <tr>
+                        <td>بوف کور</td>
+                        <td>0</td>
+                        <td><span class="badge out-of-stock">ناموجود</span></td>
+                    </tr>
+                    <tr>
+                        <td>کیمیاگر</td>
+                        <td>7</td>
+                        <td><span class="badge in-stock">موجود</span></td>
+                    </tr>
+                    <tr>
+                        <td>جنایت و مکافات</td>
+                        <td>3</td>
+                        <td><span class="badge in-stock">موجود</span></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section id="reviews" class="section">
+
+            <h2>نظر کاربران</h2>
+
+            <div class="review-list">
+
+                <div class="review" data-user-id="101">
+                    <div class="review-head">
+                        <span class="user-name">مریم رضایی</span>
+                        <span class="review-rating" data-value="5">5 ★</span>
+                    </div>
+                    <p class="review-text">
+                        ارسال خیلی سریع بود و بسته‌بندی کتاب هم عالی بود. کتاب صد سال تنهایی رو سفارش دادم و کاملاً سالم رسید.
+                    </p>
+                    <span class="review-date" data-date="2026-08-14">۱۴ مرداد ۱۴۰۵</span>
+                </div>
+
+                <div class="review" data-user-id="102">
+                    <div class="review-head">
+                        <span class="user-name">امیر حسینی</span>
+                        <span class="review-rating" data-value="4">4 ★</span>
+                    </div>
+                    <p class="review-text">
+                        قیمت‌ها نسبت به بقیه سایت‌ها مناسب‌تره. فقط کاش تنوع کتاب‌های ترجمه بیشتر بود.
+                    </p>
+                    <span class="review-date" data-date="2026-07-02">۱۱ تیر ۱۴۰۵</span>
+                </div>
+
+                <div class="review" data-user-id="103">
+                    <div class="review-head">
+                        <span class="user-name">نازنین احمدی</span>
+                        <span class="review-rating" data-value="5">5 ★</span>
+                    </div>
+                    <p class="review-text">
+                        پشتیبانی سایت خیلی پاسخگو بود و مشکل سفارشم رو سریع حل کردن. حتماً باز هم خرید می‌کنم.
+                    </p>
+                    <span class="review-date" data-date="2026-06-20">۳۰ خرداد ۱۴۰۵</span>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer id="footer">
+        <p>تمامی حقوق این سایت محفوظ است.</p>
+    </footer>
+
+</body>
+
+</html>
