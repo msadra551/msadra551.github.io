@@ -1,0 +1,39 @@
+*{box-sizing:border-box}
+body{margin:0;padding:0;font-family:Tahoma,Arial,sans-serif;background:#f3f6fa;color:#243447;line-height:1.8}
+#nav-menu{background:#16324f;padding:12px 20px;text-align:center;position:sticky;top:0;z-index:20}
+#nav-menu a{color:#eaf2f8;text-decoration:none;padding:8px 18px;margin:0 4px;border-radius:18px;font-size:14px}
+#nav-menu a:hover{background:#2d6a8a}
+#header{text-align:center;padding:45px 20px;color:#fff;background:linear-gradient(135deg,#1f5f7a,#16324f)}
+.logo{font-size:42px}
+#header h1{margin:5px 0;font-size:32px}
+.description{margin:6px 0 0;color:#dbeaf2}
+.section{width:92%;max-width:1250px;margin:30px auto;padding:25px;background:#fff;border-radius:16px;box-shadow:0 4px 16px rgba(22,50,79,.08)}
+.section h2{margin-top:0;color:#16324f;border-right:5px solid #2d8aa8;padding-right:10px}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.stat-card{background:#f7fbfd;border:1px solid #dce8ef;border-radius:14px;padding:20px;text-align:center}
+.stat-number{display:block;font-size:30px;font-weight:bold;color:#1f6e8c}
+.stat-title{font-size:13px;color:#647785}
+.department-filter{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:22px}
+.filter-item{padding:6px 15px;border-radius:18px;color:#fff;font-size:13px;font-weight:bold}
+.all-filter{background:#607d8b}.engineering-filter{background:#2563eb}.sales-filter{background:#d97706}.support-filter{background:#059669}.hr-filter{background:#7c3aed}
+.person-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:18px}
+.person-card{display:flex;gap:14px;padding:16px;border:1px solid #dfe8ee;border-radius:14px;background:#fcfdfe;transition:.18s}
+.person-card:hover{transform:translateY(-4px);box-shadow:0 8px 18px rgba(22,50,79,.12)}
+.avatar{width:52px;height:52px;min-width:52px;border-radius:50%;background:#dbeaf2;color:#16324f;display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:bold}
+.person-body{flex:1}.top-badges{display:flex;gap:6px;flex-wrap:wrap}
+.department-badge,.gender-badge{display:inline-block;padding:3px 9px;border-radius:10px;font-size:11px;font-weight:bold;color:#fff}
+.department-badge[data-department="engineering"]{background:#2563eb}.department-badge[data-department="sales"]{background:#d97706}.department-badge[data-department="support"]{background:#059669}.department-badge[data-department="hr"]{background:#7c3aed}
+.gender-badge[data-gender="male"]{background:#4f6fa8}.gender-badge[data-gender="female"]{background:#a84f7d}
+.person-name{margin:8px 0 2px;color:#16324f;font-size:17px}.person-role{margin:0 0 8px;color:#526777;font-size:13px}
+.person-meta{display:flex;justify-content:space-between;gap:8px;margin:6px 0;color:#71818e;font-size:12px}.person-skills{margin:8px 0;font-size:12px;color:#596b79}
+.salary-summary{margin-top:10px;padding:8px 10px;border-radius:10px;background:#f3f8fb;border:1px solid #dbe7ee}
+.gross-label{display:block;font-size:11px;color:#6d7c87}.gross-value{display:block;color:#9a4d00;font-size:13px;font-weight:bold}
+.person-footer{display:flex;justify-content:space-between;align-items:center;margin-top:10px}.person-rating{color:#c58b00;font-weight:bold;font-size:13px}
+.status-badge{display:inline-block;padding:3px 10px;border-radius:12px;font-size:11px;font-weight:bold}.active-status{background:#dff4e8;color:#16713d}.inactive-status{background:#fde2e2;color:#a63d3d}
+.table-wrap{width:100%;overflow-x:auto}#employees-table{width:100%;min-width:1450px;border-collapse:collapse}
+#employees-table thead{background:#16324f;color:#fff}#employees-table th,#employees-table td{padding:10px 9px;border:1px solid #dde5ea;text-align:center;font-size:13px;white-space:nowrap}
+#employees-table tbody tr:nth-child(even){background:#f8fafc}#employees-table tbody tr:hover{background:#edf6fa}
+.emp-name{font-weight:bold;color:#16324f}.emp-gross{color:#934900;font-weight:bold}.emp-insurance{color:#2f6f8f}.emp-tax{color:#9b3f3f}.emp-net{color:#147245;font-weight:bold}.emp-rating{color:#b78300;font-weight:bold}
+.table-note{margin:12px 0 0;font-size:13px;color:#697985}
+#footer{margin-top:35px;padding:24px 20px;text-align:center;background:#16324f;color:#fff}
+@media(max-width:850px){.stats-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.stats-grid,.person-grid{grid-template-columns:1fr}#nav-menu a{display:inline-block;margin-bottom:5px}}
