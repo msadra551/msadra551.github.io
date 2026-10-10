@@ -1,0 +1,3014 @@
+<!doctype html>
+
+<html dir="rtl" lang="fa">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>کارمندینو | سامانه کارکنان</title>
+    <link href="person.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav id="nav-menu">
+      <a href="#people">کارکنان</a>
+      <a href="#employee-table">جدول حقوق و اطلاعات</a>
+      <a href="#stats">آمار شرکت</a>
+    </nav>
+    <header id="header">
+      <div class="logo">👥</div>
+      <h1>کارمندینو</h1>
+      <p class="description">سامانه مدیریت و نمایش اطلاعات کارکنان شرکت</p>
+    </header>
+    <main>
+      <section class="section" id="stats">
+        <h2>آمار کلی شرکت</h2>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-number">50</span
+            ><span class="stat-title">تعداد کارکنان</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">4</span
+            ><span class="stat-title">تعداد دپارتمان‌ها</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">40</span
+            ><span class="stat-title">کارمند فعال</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">10</span
+            ><span class="stat-title">کارمند غیرفعال</span>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="people">
+        <h2>لیست کارکنان</h2>
+        <div class="department-filter">
+          <span class="filter-item all-filter">همه</span>
+          <span class="filter-item engineering-filter">مهندسی</span>
+          <span class="filter-item sales-filter">فروش</span>
+          <span class="filter-item support-filter">پشتیبانی</span>
+          <span class="filter-item hr-filter">منابع انسانی</span>
+        </div>
+        <div class="person-grid">
+          <article
+            class="person-card"
+            data-department="engineering"
+            data-gender="male"
+            data-id="1"
+            data-status="active"
+          >
+            <div class="avatar">آر</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="engineering"
+                  >مهندسی</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">آرمان رضایی</h3>
+              <p class="person-role">Backend Developer</p>
+              <p class="person-meta">
+                <span>📍 تهران</span><span data-age="29">29 سال</span>
+              </p>
+              <p class="person-skills">Python, Django, MySQL</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="68500000"
+                  >68,500,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.8">★ 4.8</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="engineering"
+            data-gender="female"
+            data-id="2"
+            data-status="active"
+          >
+            <div class="avatar">سم</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="engineering"
+                  >مهندسی</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">سارا محمدی</h3>
+              <p class="person-role">Frontend Developer</p>
+              <p class="person-meta">
+                <span>📍 اصفهان</span><span data-age="27">27 سال</span>
+              </p>
+              <p class="person-skills">React, TypeScript, CSS</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="61000000"
+                  >61,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.6">★ 4.6</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="engineering"
+            data-gender="male"
+            data-id="3"
+            data-status="active"
+          >
+            <div class="avatar">مک</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="engineering"
+                  >مهندسی</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">مهدی کریمی</h3>
+              <p class="person-role">DevOps Engineer</p>
+              <p class="person-meta">
+                <span>📍 شیراز</span><span data-age="33">33 سال</span>
+              </p>
+              <p class="person-skills">Docker, Linux, CI/CD</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="79000000"
+                  >79,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.9">★ 4.9</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="engineering"
+            data-gender="female"
+            data-id="4"
+            data-status="inactive"
+          >
+            <div class="avatar">نا</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="engineering"
+                  >مهندسی</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">نگار احمدی</h3>
+              <p class="person-role">QA Engineer</p>
+              <p class="person-meta">
+                <span>📍 رشت</span><span data-age="26">26 سال</span>
+              </p>
+              <p class="person-skills">Testing, Selenium, API</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="49500000"
+                  >49,500,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.3">★ 4.3</span>
+                <span class="status-badge inactive-status">غیرفعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="engineering"
+            data-gender="male"
+            data-id="5"
+            data-status="active"
+          >
+            <div class="avatar">عا</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="engineering"
+                  >مهندسی</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">علی اکبری</h3>
+              <p class="person-role">Mobile Developer</p>
+              <p class="person-meta">
+                <span>📍 تهران</span><span data-age="31">31 سال</span>
+              </p>
+              <p class="person-skills">Flutter, Dart, Firebase</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="72000000"
+                  >72,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.7">★ 4.7</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="engineering"
+            data-gender="female"
+            data-id="6"
+            data-status="active"
+          >
+            <div class="avatar">پح</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="engineering"
+                  >مهندسی</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">پریسا حسینی</h3>
+              <p class="person-role">Data Analyst</p>
+              <p class="person-meta">
+                <span>📍 تبریز</span><span data-age="28">28 سال</span>
+              </p>
+              <p class="person-skills">Python, Pandas, SQL</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="64000000"
+                  >64,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.5">★ 4.5</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="engineering"
+            data-gender="male"
+            data-id="7"
+            data-status="active"
+          >
+            <div class="avatar">ام</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="engineering"
+                  >مهندسی</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">امیرحسین مرادی</h3>
+              <p class="person-role">Security Engineer</p>
+              <p class="person-meta">
+                <span>📍 مشهد</span><span data-age="35">35 سال</span>
+              </p>
+              <p class="person-skills">Security, Network, Linux</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="88000000"
+                  >88,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.9">★ 4.9</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="engineering"
+            data-gender="female"
+            data-id="8"
+            data-status="active"
+          >
+            <div class="avatar">یش</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="engineering"
+                  >مهندسی</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">یاسمن شریفی</h3>
+              <p class="person-role">UI Developer</p>
+              <p class="person-meta">
+                <span>📍 تهران</span><span data-age="25">25 سال</span>
+              </p>
+              <p class="person-skills">HTML, CSS, JavaScript</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="48000000"
+                  >48,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.2">★ 4.2</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="engineering"
+            data-gender="male"
+            data-id="9"
+            data-status="inactive"
+          >
+            <div class="avatar">رن</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="engineering"
+                  >مهندسی</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">رضا نادری</h3>
+              <p class="person-role">Backend Developer</p>
+              <p class="person-meta">
+                <span>📍 کرج</span><span data-age="30">30 سال</span>
+              </p>
+              <p class="person-skills">Python, FastAPI, PostgreSQL</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="70500000"
+                  >70,500,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.6">★ 4.6</span>
+                <span class="status-badge inactive-status">غیرفعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="sales"
+            data-gender="female"
+            data-id="10"
+            data-status="active"
+          >
+            <div class="avatar">ام</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="sales"
+                  >فروش</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">الهام موسوی</h3>
+              <p class="person-role">Sales Manager</p>
+              <p class="person-meta">
+                <span>📍 تهران</span><span data-age="36">36 سال</span>
+              </p>
+              <p class="person-skills">CRM, Negotiation, B2B</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="76000000"
+                  >76,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.8">★ 4.8</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="sales"
+            data-gender="male"
+            data-id="11"
+            data-status="active"
+          >
+            <div class="avatar">ما</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="sales"
+                  >فروش</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">محمد امینی</h3>
+              <p class="person-role">Sales Expert</p>
+              <p class="person-meta">
+                <span>📍 قم</span><span data-age="24">24 سال</span>
+              </p>
+              <p class="person-skills">CRM, Sales, Excel</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="39500000"
+                  >39,500,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.1">★ 4.1</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="sales"
+            data-gender="female"
+            data-id="12"
+            data-status="active"
+          >
+            <div class="avatar">نر</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="sales"
+                  >فروش</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">نازنین رستمی</h3>
+              <p class="person-role">Account Manager</p>
+              <p class="person-meta">
+                <span>📍 تهران</span><span data-age="29">29 سال</span>
+              </p>
+              <p class="person-skills">B2B, CRM, Reporting</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="55000000"
+                  >55,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.4">★ 4.4</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="sales"
+            data-gender="male"
+            data-id="13"
+            data-status="inactive"
+          >
+            <div class="avatar">حص</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="sales"
+                  >فروش</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">حامد صادقی</h3>
+              <p class="person-role">Sales Expert</p>
+              <p class="person-meta">
+                <span>📍 اهواز</span><span data-age="32">32 سال</span>
+              </p>
+              <p class="person-skills">Sales, Negotiation, Office</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="52500000"
+                  >52,500,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.3">★ 4.3</span>
+                <span class="status-badge inactive-status">غیرفعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="sales"
+            data-gender="female"
+            data-id="14"
+            data-status="active"
+          >
+            <div class="avatar">مز</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="sales"
+                  >فروش</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">مهسا زمانی</h3>
+              <p class="person-role">Business Developer</p>
+              <p class="person-meta">
+                <span>📍 شیراز</span><span data-age="28">28 سال</span>
+              </p>
+              <p class="person-skills">Market Research, CRM, B2B</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="59500000"
+                  >59,500,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.7">★ 4.7</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="sales"
+            data-gender="male"
+            data-id="15"
+            data-status="active"
+          >
+            <div class="avatar">پط</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="sales"
+                  >فروش</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">پویا طالبی</h3>
+              <p class="person-role">Sales Expert</p>
+              <p class="person-meta">
+                <span>📍 تبریز</span><span data-age="26">26 سال</span>
+              </p>
+              <p class="person-skills">Sales, Excel, CRM</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="43000000"
+                  >43,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.0">★ 4.0</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="support"
+            data-gender="female"
+            data-id="16"
+            data-status="active"
+          >
+            <div class="avatar">رک</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="support"
+                  >پشتیبانی</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">رها کاظمی</h3>
+              <p class="person-role">Support Lead</p>
+              <p class="person-meta">
+                <span>📍 تهران</span><span data-age="34">34 سال</span>
+              </p>
+              <p class="person-skills">Customer Care, CRM, Training</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="58000000"
+                  >58,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.8">★ 4.8</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="support"
+            data-gender="male"
+            data-id="17"
+            data-status="active"
+          >
+            <div class="avatar">کح</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="support"
+                  >پشتیبانی</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">کیوان حیدری</h3>
+              <p class="person-role">Support Expert</p>
+              <p class="person-meta">
+                <span>📍 کرج</span><span data-age="25">25 سال</span>
+              </p>
+              <p class="person-skills">Support, Ticketing, Office</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="36500000"
+                  >36,500,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.2">★ 4.2</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="support"
+            data-gender="female"
+            data-id="18"
+            data-status="active"
+          >
+            <div class="avatar">شق</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="support"
+                  >پشتیبانی</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">شیدا قربانی</h3>
+              <p class="person-role">Support Expert</p>
+              <p class="person-meta">
+                <span>📍 رشت</span><span data-age="27">27 سال</span>
+              </p>
+              <p class="person-skills">Support, CRM, Communication</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="41000000"
+                  >41,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.5">★ 4.5</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="support"
+            data-gender="male"
+            data-id="19"
+            data-status="inactive"
+          >
+            <div class="avatar">بج</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="support"
+                  >پشتیبانی</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">بهنام جعفری</h3>
+              <p class="person-role">Technical Support</p>
+              <p class="person-meta">
+                <span>📍 مشهد</span><span data-age="30">30 سال</span>
+              </p>
+              <p class="person-skills">Network, Windows, Hardware</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="47500000"
+                  >47,500,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.6">★ 4.6</span>
+                <span class="status-badge inactive-status">غیرفعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="support"
+            data-gender="female"
+            data-id="20"
+            data-status="active"
+          >
+            <div class="avatar">سب</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="support"
+                  >پشتیبانی</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">سحر بهرامی</h3>
+              <p class="person-role">Support Expert</p>
+              <p class="person-meta">
+                <span>📍 تهران</span><span data-age="23">23 سال</span>
+              </p>
+              <p class="person-skills">Support, Ticketing, CRM</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="34000000"
+                  >34,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="3.9">★ 3.9</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="hr"
+            data-gender="female"
+            data-id="21"
+            data-status="active"
+          >
+            <div class="avatar">لا</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="hr"
+                  >منابع انسانی</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">لیلا امیری</h3>
+              <p class="person-role">HR Manager</p>
+              <p class="person-meta">
+                <span>📍 تهران</span><span data-age="38">38 سال</span>
+              </p>
+              <p class="person-skills">HR, Recruitment, Payroll</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="69000000"
+                  >69,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.7">★ 4.7</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="hr"
+            data-gender="male"
+            data-id="22"
+            data-status="active"
+          >
+            <div class="avatar">عم</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="hr"
+                  >منابع انسانی</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">عرفان محمودی</h3>
+              <p class="person-role">Recruiter</p>
+              <p class="person-meta">
+                <span>📍 اصفهان</span><span data-age="28">28 سال</span>
+              </p>
+              <p class="person-skills">Recruitment, Interview, HR</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="46000000"
+                  >46,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.4">★ 4.4</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="hr"
+            data-gender="female"
+            data-id="23"
+            data-status="inactive"
+          >
+            <div class="avatar">مر</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="hr"
+                  >منابع انسانی</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">مونا رحیمی</h3>
+              <p class="person-role">HR Specialist</p>
+              <p class="person-meta">
+                <span>📍 شیراز</span><span data-age="31">31 سال</span>
+              </p>
+              <p class="person-skills">HR, Payroll, Office</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="51500000"
+                  >51,500,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.5">★ 4.5</span>
+                <span class="status-badge inactive-status">غیرفعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="hr"
+            data-gender="male"
+            data-id="24"
+            data-status="active"
+          >
+            <div class="avatar">ست</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="hr"
+                  >منابع انسانی</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">سامان توکلی</h3>
+              <p class="person-role">Training Specialist</p>
+              <p class="person-meta">
+                <span>📍 تهران</span><span data-age="29">29 سال</span>
+              </p>
+              <p class="person-skills">Training, HR, Presentation</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="49000000"
+                  >49,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.3">★ 4.3</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="engineering"
+            data-gender="male"
+            data-id="25"
+            data-status="active"
+          >
+            <div class="avatar">نش</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="engineering"
+                  >مهندسی</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">نیما شمس</h3>
+              <p class="person-role">Cloud Engineer</p>
+              <p class="person-meta">
+                <span>📍 تهران</span><span data-age="32">32 سال</span>
+              </p>
+              <p class="person-skills">AWS, Docker, Kubernetes</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="82000000"
+                  >82,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.8">★ 4.8</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="engineering"
+            data-gender="female"
+            data-id="26"
+            data-status="active"
+          >
+            <div class="avatar">تی</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="engineering"
+                  >مهندسی</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">ترانه یوسفی</h3>
+              <p class="person-role">Data Engineer</p>
+              <p class="person-meta">
+                <span>📍 اصفهان</span><span data-age="29">29 سال</span>
+              </p>
+              <p class="person-skills">Python, SQL, Spark</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="73500000"
+                  >73,500,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.7">★ 4.7</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="engineering"
+            data-gender="male"
+            data-id="27"
+            data-status="active"
+          >
+            <div class="avatar">اب</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="engineering"
+                  >مهندسی</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">احسان باقری</h3>
+              <p class="person-role">Frontend Developer</p>
+              <p class="person-meta">
+                <span>📍 شیراز</span><span data-age="27">27 سال</span>
+              </p>
+              <p class="person-skills">Vue, JavaScript, CSS</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="57000000"
+                  >57,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.4">★ 4.4</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="engineering"
+            data-gender="female"
+            data-id="28"
+            data-status="active"
+          >
+            <div class="avatar">آن</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="engineering"
+                  >مهندسی</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">آیدا نظری</h3>
+              <p class="person-role">Product Designer</p>
+              <p class="person-meta">
+                <span>📍 تهران</span><span data-age="30">30 سال</span>
+              </p>
+              <p class="person-skills">Figma, UX, UI</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="62500000"
+                  >62,500,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.6">★ 4.6</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="engineering"
+            data-gender="male"
+            data-id="29"
+            data-status="inactive"
+          >
+            <div class="avatar">سر</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="engineering"
+                  >مهندسی</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">سینا رجبی</h3>
+              <p class="person-role">QA Automation Engineer</p>
+              <p class="person-meta">
+                <span>📍 کرج</span><span data-age="34">34 سال</span>
+              </p>
+              <p class="person-skills">Python, Playwright, API</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="68000000"
+                  >68,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.5">★ 4.5</span>
+                <span class="status-badge inactive-status">غیرفعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="engineering"
+            data-gender="female"
+            data-id="30"
+            data-status="active"
+          >
+            <div class="avatar">مف</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="engineering"
+                  >مهندسی</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">مریم فتحی</h3>
+              <p class="person-role">Machine Learning Engineer</p>
+              <p class="person-meta">
+                <span>📍 مشهد</span><span data-age="31">31 سال</span>
+              </p>
+              <p class="person-skills">Python, ML, TensorFlow</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="91000000"
+                  >91,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.9">★ 4.9</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="engineering"
+            data-gender="male"
+            data-id="31"
+            data-status="active"
+          >
+            <div class="avatar">پز</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="engineering"
+                  >مهندسی</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">پارسا زمانی</h3>
+              <p class="person-role">Database Administrator</p>
+              <p class="person-meta">
+                <span>📍 تبریز</span><span data-age="36">36 سال</span>
+              </p>
+              <p class="person-skills">MySQL, PostgreSQL, Linux</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="84500000"
+                  >84,500,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.7">★ 4.7</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="engineering"
+            data-gender="female"
+            data-id="32"
+            data-status="active"
+          >
+            <div class="avatar">غش</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="engineering"
+                  >مهندسی</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">غزل شریعتی</h3>
+              <p class="person-role">Backend Developer</p>
+              <p class="person-meta">
+                <span>📍 رشت</span><span data-age="26">26 سال</span>
+              </p>
+              <p class="person-skills">Python, FastAPI, Redis</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="59000000"
+                  >59,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.5">★ 4.5</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="engineering"
+            data-gender="male"
+            data-id="33"
+            data-status="active"
+          >
+            <div class="avatar">مس</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="engineering"
+                  >مهندسی</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">میلاد سلطانی</h3>
+              <p class="person-role">System Administrator</p>
+              <p class="person-meta">
+                <span>📍 تهران</span><span data-age="38">38 سال</span>
+              </p>
+              <p class="person-skills">Linux, Network, VMware</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="76500000"
+                  >76,500,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.6">★ 4.6</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="engineering"
+            data-gender="female"
+            data-id="34"
+            data-status="active"
+          >
+            <div class="avatar">هک</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="engineering"
+                  >مهندسی</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">هانیه کمالی</h3>
+              <p class="person-role">Business Intelligence Analyst</p>
+              <p class="person-meta">
+                <span>📍 قم</span><span data-age="28">28 سال</span>
+              </p>
+              <p class="person-skills">Power BI, SQL, Excel</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="54500000"
+                  >54,500,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.3">★ 4.3</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="engineering"
+            data-gender="male"
+            data-id="35"
+            data-status="active"
+          >
+            <div class="avatar">فن</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="engineering"
+                  >مهندسی</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">فرهاد نیک‌پی</h3>
+              <p class="person-role">Software Architect</p>
+              <p class="person-meta">
+                <span>📍 تهران</span><span data-age="41">41 سال</span>
+              </p>
+              <p class="person-skills">Architecture, Python, Cloud</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="108000000"
+                  >108,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.9">★ 4.9</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="engineering"
+            data-gender="female"
+            data-id="36"
+            data-status="inactive"
+          >
+            <div class="avatar">شم</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="engineering"
+                  >مهندسی</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">شادی مرادی</h3>
+              <p class="person-role">UX Researcher</p>
+              <p class="person-meta">
+                <span>📍 اصفهان</span><span data-age="33">33 سال</span>
+              </p>
+              <p class="person-skills">UX Research, Analytics, Figma</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="66500000"
+                  >66,500,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.4">★ 4.4</span>
+                <span class="status-badge inactive-status">غیرفعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="sales"
+            data-gender="male"
+            data-id="37"
+            data-status="active"
+          >
+            <div class="avatar">کک</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="sales"
+                  >فروش</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">کوروش کریمی</h3>
+              <p class="person-role">Regional Sales Manager</p>
+              <p class="person-meta">
+                <span>📍 تهران</span><span data-age="39">39 سال</span>
+              </p>
+              <p class="person-skills">Sales, CRM, Leadership</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="83000000"
+                  >83,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.8">★ 4.8</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="sales"
+            data-gender="female"
+            data-id="38"
+            data-status="active"
+          >
+            <div class="avatar">سا</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="sales"
+                  >فروش</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">سمانه اکبری</h3>
+              <p class="person-role">Sales Expert</p>
+              <p class="person-meta">
+                <span>📍 کرج</span><span data-age="27">27 سال</span>
+              </p>
+              <p class="person-skills">Sales, CRM, Excel</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="44500000"
+                  >44,500,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.2">★ 4.2</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="sales"
+            data-gender="male"
+            data-id="39"
+            data-status="active"
+          >
+            <div class="avatar">آف</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="sales"
+                  >فروش</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">آرش فرهمند</h3>
+              <p class="person-role">Key Account Manager</p>
+              <p class="person-meta">
+                <span>📍 مشهد</span><span data-age="35">35 سال</span>
+              </p>
+              <p class="person-skills">B2B, Negotiation, CRM</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="71000000"
+                  >71,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.7">★ 4.7</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="sales"
+            data-gender="female"
+            data-id="40"
+            data-status="inactive"
+          >
+            <div class="avatar">نح</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="sales"
+                  >فروش</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">نیلوفر حسینی</h3>
+              <p class="person-role">Business Developer</p>
+              <p class="person-meta">
+                <span>📍 شیراز</span><span data-age="30">30 سال</span>
+              </p>
+              <p class="person-skills">Market Research, B2B, CRM</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="58500000"
+                  >58,500,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.4">★ 4.4</span>
+                <span class="status-badge inactive-status">غیرفعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="sales"
+            data-gender="male"
+            data-id="41"
+            data-status="active"
+          >
+            <div class="avatar">مص</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="sales"
+                  >فروش</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">مهدی صفری</h3>
+              <p class="person-role">Sales Analyst</p>
+              <p class="person-meta">
+                <span>📍 تهران</span><span data-age="29">29 سال</span>
+              </p>
+              <p class="person-skills">Excel, Power BI, CRM</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="52000000"
+                  >52,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.5">★ 4.5</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="sales"
+            data-gender="female"
+            data-id="42"
+            data-status="active"
+          >
+            <div class="avatar">بت</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="sales"
+                  >فروش</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">بهاره توکلی</h3>
+              <p class="person-role">Sales Expert</p>
+              <p class="person-meta">
+                <span>📍 تبریز</span><span data-age="25">25 سال</span>
+              </p>
+              <p class="person-skills">Sales, Office, CRM</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="40500000"
+                  >40,500,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.1">★ 4.1</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="support"
+            data-gender="male"
+            data-id="43"
+            data-status="active"
+          >
+            <div class="avatar">کر</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="support"
+                  >پشتیبانی</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">کامران رفیعی</h3>
+              <p class="person-role">Technical Support</p>
+              <p class="person-meta">
+                <span>📍 تهران</span><span data-age="33">33 سال</span>
+              </p>
+              <p class="person-skills">Network, Linux, Hardware</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="53500000"
+                  >53,500,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.6">★ 4.6</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="support"
+            data-gender="female"
+            data-id="44"
+            data-status="active"
+          >
+            <div class="avatar">رک</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="support"
+                  >پشتیبانی</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">روژان کریمی</h3>
+              <p class="person-role">Support Expert</p>
+              <p class="person-meta">
+                <span>📍 اصفهان</span><span data-age="24">24 سال</span>
+              </p>
+              <p class="person-skills">Support, CRM, Ticketing</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="37500000"
+                  >37,500,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.2">★ 4.2</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="support"
+            data-gender="male"
+            data-id="45"
+            data-status="inactive"
+          >
+            <div class="avatar">نع</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="support"
+                  >پشتیبانی</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">نوید عباسی</h3>
+              <p class="person-role">Support Expert</p>
+              <p class="person-meta">
+                <span>📍 اهواز</span><span data-age="28">28 سال</span>
+              </p>
+              <p class="person-skills">Support, Office, CRM</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="42000000"
+                  >42,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.0">★ 4.0</span>
+                <span class="status-badge inactive-status">غیرفعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="support"
+            data-gender="female"
+            data-id="46"
+            data-status="active"
+          >
+            <div class="avatar">ام</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="support"
+                  >پشتیبانی</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">الهه منصوری</h3>
+              <p class="person-role">Customer Success Expert</p>
+              <p class="person-meta">
+                <span>📍 تهران</span><span data-age="31">31 سال</span>
+              </p>
+              <p class="person-skills">Customer Care, CRM, Reporting</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="49500000"
+                  >49,500,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.7">★ 4.7</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="support"
+            data-gender="male"
+            data-id="47"
+            data-status="active"
+          >
+            <div class="avatar">ار</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="support"
+                  >پشتیبانی</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">امیر رستگار</h3>
+              <p class="person-role">Technical Support</p>
+              <p class="person-meta">
+                <span>📍 رشت</span><span data-age="26">26 سال</span>
+              </p>
+              <p class="person-skills">Windows, Network, Hardware</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="45500000"
+                  >45,500,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.3">★ 4.3</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="hr"
+            data-gender="female"
+            data-id="48"
+            data-status="active"
+          >
+            <div class="avatar">فج</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="hr"
+                  >منابع انسانی</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">فاطمه جعفری</h3>
+              <p class="person-role">HR Specialist</p>
+              <p class="person-meta">
+                <span>📍 تهران</span><span data-age="30">30 سال</span>
+              </p>
+              <p class="person-skills">HR, Payroll, Office</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="54000000"
+                  >54,000,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.5">★ 4.5</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="hr"
+            data-gender="male"
+            data-id="49"
+            data-status="active"
+          >
+            <div class="avatar">سم</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="hr"
+                  >منابع انسانی</span
+                >
+                <span class="gender-badge" data-gender="male">مرد</span>
+              </div>
+              <h3 class="person-name">سعید محمدی</h3>
+              <p class="person-role">Recruiter</p>
+              <p class="person-meta">
+                <span>📍 شیراز</span><span data-age="27">27 سال</span>
+              </p>
+              <p class="person-skills">Recruitment, Interview, HR</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="47500000"
+                  >47,500,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.3">★ 4.3</span>
+                <span class="status-badge active-status">فعال</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="person-card"
+            data-department="hr"
+            data-gender="female"
+            data-id="50"
+            data-status="inactive"
+          >
+            <div class="avatar">سر</div>
+            <div class="person-body">
+              <div class="top-badges">
+                <span class="department-badge" data-department="hr"
+                  >منابع انسانی</span
+                >
+                <span class="gender-badge" data-gender="female">زن</span>
+              </div>
+              <h3 class="person-name">سپیده رضایی</h3>
+              <p class="person-role">Training Specialist</p>
+              <p class="person-meta">
+                <span>📍 اصفهان</span><span data-age="34">34 سال</span>
+              </p>
+              <p class="person-skills">Training, HR, Presentation</p>
+              <div class="salary-summary">
+                <span class="gross-label">حقوق ناخالص</span>
+                <span class="gross-value" data-toman="56500000"
+                  >56,500,000 تومان</span
+                >
+              </div>
+              <div class="person-footer">
+                <span class="person-rating" data-rating="4.6">★ 4.6</span>
+                <span class="status-badge inactive-status">غیرفعال</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section" id="employee-table">
+        <h2>جدول حقوق و اطلاعات کارکنان</h2>
+        <div class="table-wrap">
+          <table id="employees-table">
+            <thead>
+              <tr>
+                <th>نام و نام خانوادگی</th>
+                <th>جنسیت</th>
+                <th>دپارتمان</th>
+                <th>سمت</th>
+                <th>سن</th>
+                <th>سابقه</th>
+                <th>حقوق ناخالص</th>
+                <th>بیمه</th>
+                <th>مالیات</th>
+                <th>حقوق خالص</th>
+                <th>امتیاز عملکرد</th>
+                <th>وضعیت</th>
+                <th>شهر</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                class="employee-row"
+                data-department="engineering"
+                data-gender="male"
+                data-id="1"
+                data-status="active"
+              >
+                <td class="emp-name">آرمان رضایی</td>
+                <td class="emp-gender">مرد</td>
+                <td>مهندسی</td>
+                <td>Backend Developer</td>
+                <td data-value="29">29</td>
+                <td data-value="4">4</td>
+                <td class="emp-gross" data-toman="68500000">
+                  68,500,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="4795000">
+                  4,795,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="2300000">2,300,000 تومان</td>
+                <td class="emp-net" data-toman="61405000">61,405,000 تومان</td>
+                <td class="emp-rating" data-value="4.8">4.8</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>تهران</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="engineering"
+                data-gender="female"
+                data-id="2"
+                data-status="active"
+              >
+                <td class="emp-name">سارا محمدی</td>
+                <td class="emp-gender">زن</td>
+                <td>مهندسی</td>
+                <td>Frontend Developer</td>
+                <td data-value="27">27</td>
+                <td data-value="3">3</td>
+                <td class="emp-gross" data-toman="61000000">
+                  61,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="4270000">
+                  4,270,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="1900000">1,900,000 تومان</td>
+                <td class="emp-net" data-toman="54830000">54,830,000 تومان</td>
+                <td class="emp-rating" data-value="4.6">4.6</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>اصفهان</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="engineering"
+                data-gender="male"
+                data-id="3"
+                data-status="active"
+              >
+                <td class="emp-name">مهدی کریمی</td>
+                <td class="emp-gender">مرد</td>
+                <td>مهندسی</td>
+                <td>DevOps Engineer</td>
+                <td data-value="33">33</td>
+                <td data-value="7">7</td>
+                <td class="emp-gross" data-toman="79000000">
+                  79,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="5530000">
+                  5,530,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="3200000">3,200,000 تومان</td>
+                <td class="emp-net" data-toman="70270000">70,270,000 تومان</td>
+                <td class="emp-rating" data-value="4.9">4.9</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>شیراز</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="engineering"
+                data-gender="female"
+                data-id="4"
+                data-status="inactive"
+              >
+                <td class="emp-name">نگار احمدی</td>
+                <td class="emp-gender">زن</td>
+                <td>مهندسی</td>
+                <td>QA Engineer</td>
+                <td data-value="26">26</td>
+                <td data-value="2">2</td>
+                <td class="emp-gross" data-toman="49500000">
+                  49,500,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="3465000">
+                  3,465,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="1100000">1,100,000 تومان</td>
+                <td class="emp-net" data-toman="44935000">44,935,000 تومان</td>
+                <td class="emp-rating" data-value="4.3">4.3</td>
+                <td>
+                  <span class="status-badge inactive-status">غیرفعال</span>
+                </td>
+                <td>رشت</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="engineering"
+                data-gender="male"
+                data-id="5"
+                data-status="active"
+              >
+                <td class="emp-name">علی اکبری</td>
+                <td class="emp-gender">مرد</td>
+                <td>مهندسی</td>
+                <td>Mobile Developer</td>
+                <td data-value="31">31</td>
+                <td data-value="6">6</td>
+                <td class="emp-gross" data-toman="72000000">
+                  72,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="5040000">
+                  5,040,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="2600000">2,600,000 تومان</td>
+                <td class="emp-net" data-toman="64360000">64,360,000 تومان</td>
+                <td class="emp-rating" data-value="4.7">4.7</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>تهران</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="engineering"
+                data-gender="female"
+                data-id="6"
+                data-status="active"
+              >
+                <td class="emp-name">پریسا حسینی</td>
+                <td class="emp-gender">زن</td>
+                <td>مهندسی</td>
+                <td>Data Analyst</td>
+                <td data-value="28">28</td>
+                <td data-value="4">4</td>
+                <td class="emp-gross" data-toman="64000000">
+                  64,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="4480000">
+                  4,480,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="2000000">2,000,000 تومان</td>
+                <td class="emp-net" data-toman="57520000">57,520,000 تومان</td>
+                <td class="emp-rating" data-value="4.5">4.5</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>تبریز</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="engineering"
+                data-gender="male"
+                data-id="7"
+                data-status="active"
+              >
+                <td class="emp-name">امیرحسین مرادی</td>
+                <td class="emp-gender">مرد</td>
+                <td>مهندسی</td>
+                <td>Security Engineer</td>
+                <td data-value="35">35</td>
+                <td data-value="9">9</td>
+                <td class="emp-gross" data-toman="88000000">
+                  88,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="6160000">
+                  6,160,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="4100000">4,100,000 تومان</td>
+                <td class="emp-net" data-toman="77740000">77,740,000 تومان</td>
+                <td class="emp-rating" data-value="4.9">4.9</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>مشهد</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="engineering"
+                data-gender="female"
+                data-id="8"
+                data-status="active"
+              >
+                <td class="emp-name">یاسمن شریفی</td>
+                <td class="emp-gender">زن</td>
+                <td>مهندسی</td>
+                <td>UI Developer</td>
+                <td data-value="25">25</td>
+                <td data-value="2">2</td>
+                <td class="emp-gross" data-toman="48000000">
+                  48,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="3360000">
+                  3,360,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="950000">950,000 تومان</td>
+                <td class="emp-net" data-toman="43690000">43,690,000 تومان</td>
+                <td class="emp-rating" data-value="4.2">4.2</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>تهران</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="engineering"
+                data-gender="male"
+                data-id="9"
+                data-status="inactive"
+              >
+                <td class="emp-name">رضا نادری</td>
+                <td class="emp-gender">مرد</td>
+                <td>مهندسی</td>
+                <td>Backend Developer</td>
+                <td data-value="30">30</td>
+                <td data-value="5">5</td>
+                <td class="emp-gross" data-toman="70500000">
+                  70,500,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="4935000">
+                  4,935,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="2450000">2,450,000 تومان</td>
+                <td class="emp-net" data-toman="63115000">63,115,000 تومان</td>
+                <td class="emp-rating" data-value="4.6">4.6</td>
+                <td>
+                  <span class="status-badge inactive-status">غیرفعال</span>
+                </td>
+                <td>کرج</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="sales"
+                data-gender="female"
+                data-id="10"
+                data-status="active"
+              >
+                <td class="emp-name">الهام موسوی</td>
+                <td class="emp-gender">زن</td>
+                <td>فروش</td>
+                <td>Sales Manager</td>
+                <td data-value="36">36</td>
+                <td data-value="10">10</td>
+                <td class="emp-gross" data-toman="76000000">
+                  76,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="5320000">
+                  5,320,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="3000000">3,000,000 تومان</td>
+                <td class="emp-net" data-toman="67680000">67,680,000 تومان</td>
+                <td class="emp-rating" data-value="4.8">4.8</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>تهران</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="sales"
+                data-gender="male"
+                data-id="11"
+                data-status="active"
+              >
+                <td class="emp-name">محمد امینی</td>
+                <td class="emp-gender">مرد</td>
+                <td>فروش</td>
+                <td>Sales Expert</td>
+                <td data-value="24">24</td>
+                <td data-value="2">2</td>
+                <td class="emp-gross" data-toman="39500000">
+                  39,500,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="2765000">
+                  2,765,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="500000">500,000 تومان</td>
+                <td class="emp-net" data-toman="36235000">36,235,000 تومان</td>
+                <td class="emp-rating" data-value="4.1">4.1</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>قم</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="sales"
+                data-gender="female"
+                data-id="12"
+                data-status="active"
+              >
+                <td class="emp-name">نازنین رستمی</td>
+                <td class="emp-gender">زن</td>
+                <td>فروش</td>
+                <td>Account Manager</td>
+                <td data-value="29">29</td>
+                <td data-value="5">5</td>
+                <td class="emp-gross" data-toman="55000000">
+                  55,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="3850000">
+                  3,850,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="1450000">1,450,000 تومان</td>
+                <td class="emp-net" data-toman="49700000">49,700,000 تومان</td>
+                <td class="emp-rating" data-value="4.4">4.4</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>تهران</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="sales"
+                data-gender="male"
+                data-id="13"
+                data-status="inactive"
+              >
+                <td class="emp-name">حامد صادقی</td>
+                <td class="emp-gender">مرد</td>
+                <td>فروش</td>
+                <td>Sales Expert</td>
+                <td data-value="32">32</td>
+                <td data-value="6">6</td>
+                <td class="emp-gross" data-toman="52500000">
+                  52,500,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="3675000">
+                  3,675,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="1250000">1,250,000 تومان</td>
+                <td class="emp-net" data-toman="47575000">47,575,000 تومان</td>
+                <td class="emp-rating" data-value="4.3">4.3</td>
+                <td>
+                  <span class="status-badge inactive-status">غیرفعال</span>
+                </td>
+                <td>اهواز</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="sales"
+                data-gender="female"
+                data-id="14"
+                data-status="active"
+              >
+                <td class="emp-name">مهسا زمانی</td>
+                <td class="emp-gender">زن</td>
+                <td>فروش</td>
+                <td>Business Developer</td>
+                <td data-value="28">28</td>
+                <td data-value="4">4</td>
+                <td class="emp-gross" data-toman="59500000">
+                  59,500,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="4165000">
+                  4,165,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="1750000">1,750,000 تومان</td>
+                <td class="emp-net" data-toman="53585000">53,585,000 تومان</td>
+                <td class="emp-rating" data-value="4.7">4.7</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>شیراز</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="sales"
+                data-gender="male"
+                data-id="15"
+                data-status="active"
+              >
+                <td class="emp-name">پویا طالبی</td>
+                <td class="emp-gender">مرد</td>
+                <td>فروش</td>
+                <td>Sales Expert</td>
+                <td data-value="26">26</td>
+                <td data-value="3">3</td>
+                <td class="emp-gross" data-toman="43000000">
+                  43,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="3010000">
+                  3,010,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="700000">700,000 تومان</td>
+                <td class="emp-net" data-toman="39290000">39,290,000 تومان</td>
+                <td class="emp-rating" data-value="4.0">4.0</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>تبریز</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="support"
+                data-gender="female"
+                data-id="16"
+                data-status="active"
+              >
+                <td class="emp-name">رها کاظمی</td>
+                <td class="emp-gender">زن</td>
+                <td>پشتیبانی</td>
+                <td>Support Lead</td>
+                <td data-value="34">34</td>
+                <td data-value="8">8</td>
+                <td class="emp-gross" data-toman="58000000">
+                  58,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="4060000">
+                  4,060,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="1650000">1,650,000 تومان</td>
+                <td class="emp-net" data-toman="52290000">52,290,000 تومان</td>
+                <td class="emp-rating" data-value="4.8">4.8</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>تهران</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="support"
+                data-gender="male"
+                data-id="17"
+                data-status="active"
+              >
+                <td class="emp-name">کیوان حیدری</td>
+                <td class="emp-gender">مرد</td>
+                <td>پشتیبانی</td>
+                <td>Support Expert</td>
+                <td data-value="25">25</td>
+                <td data-value="2">2</td>
+                <td class="emp-gross" data-toman="36500000">
+                  36,500,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="2555000">
+                  2,555,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="350000">350,000 تومان</td>
+                <td class="emp-net" data-toman="33595000">33,595,000 تومان</td>
+                <td class="emp-rating" data-value="4.2">4.2</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>کرج</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="support"
+                data-gender="female"
+                data-id="18"
+                data-status="active"
+              >
+                <td class="emp-name">شیدا قربانی</td>
+                <td class="emp-gender">زن</td>
+                <td>پشتیبانی</td>
+                <td>Support Expert</td>
+                <td data-value="27">27</td>
+                <td data-value="4">4</td>
+                <td class="emp-gross" data-toman="41000000">
+                  41,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="2870000">
+                  2,870,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="600000">600,000 تومان</td>
+                <td class="emp-net" data-toman="37530000">37,530,000 تومان</td>
+                <td class="emp-rating" data-value="4.5">4.5</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>رشت</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="support"
+                data-gender="male"
+                data-id="19"
+                data-status="inactive"
+              >
+                <td class="emp-name">بهنام جعفری</td>
+                <td class="emp-gender">مرد</td>
+                <td>پشتیبانی</td>
+                <td>Technical Support</td>
+                <td data-value="30">30</td>
+                <td data-value="5">5</td>
+                <td class="emp-gross" data-toman="47500000">
+                  47,500,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="3325000">
+                  3,325,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="900000">900,000 تومان</td>
+                <td class="emp-net" data-toman="43275000">43,275,000 تومان</td>
+                <td class="emp-rating" data-value="4.6">4.6</td>
+                <td>
+                  <span class="status-badge inactive-status">غیرفعال</span>
+                </td>
+                <td>مشهد</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="support"
+                data-gender="female"
+                data-id="20"
+                data-status="active"
+              >
+                <td class="emp-name">سحر بهرامی</td>
+                <td class="emp-gender">زن</td>
+                <td>پشتیبانی</td>
+                <td>Support Expert</td>
+                <td data-value="23">23</td>
+                <td data-value="1">1</td>
+                <td class="emp-gross" data-toman="34000000">
+                  34,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="2380000">
+                  2,380,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="250000">250,000 تومان</td>
+                <td class="emp-net" data-toman="31370000">31,370,000 تومان</td>
+                <td class="emp-rating" data-value="3.9">3.9</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>تهران</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="hr"
+                data-gender="female"
+                data-id="21"
+                data-status="active"
+              >
+                <td class="emp-name">لیلا امیری</td>
+                <td class="emp-gender">زن</td>
+                <td>منابع انسانی</td>
+                <td>HR Manager</td>
+                <td data-value="38">38</td>
+                <td data-value="12">12</td>
+                <td class="emp-gross" data-toman="69000000">
+                  69,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="4830000">
+                  4,830,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="2350000">2,350,000 تومان</td>
+                <td class="emp-net" data-toman="61820000">61,820,000 تومان</td>
+                <td class="emp-rating" data-value="4.7">4.7</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>تهران</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="hr"
+                data-gender="male"
+                data-id="22"
+                data-status="active"
+              >
+                <td class="emp-name">عرفان محمودی</td>
+                <td class="emp-gender">مرد</td>
+                <td>منابع انسانی</td>
+                <td>Recruiter</td>
+                <td data-value="28">28</td>
+                <td data-value="4">4</td>
+                <td class="emp-gross" data-toman="46000000">
+                  46,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="3220000">
+                  3,220,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="800000">800,000 تومان</td>
+                <td class="emp-net" data-toman="41980000">41,980,000 تومان</td>
+                <td class="emp-rating" data-value="4.4">4.4</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>اصفهان</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="hr"
+                data-gender="female"
+                data-id="23"
+                data-status="inactive"
+              >
+                <td class="emp-name">مونا رحیمی</td>
+                <td class="emp-gender">زن</td>
+                <td>منابع انسانی</td>
+                <td>HR Specialist</td>
+                <td data-value="31">31</td>
+                <td data-value="6">6</td>
+                <td class="emp-gross" data-toman="51500000">
+                  51,500,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="3605000">
+                  3,605,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="1150000">1,150,000 تومان</td>
+                <td class="emp-net" data-toman="46745000">46,745,000 تومان</td>
+                <td class="emp-rating" data-value="4.5">4.5</td>
+                <td>
+                  <span class="status-badge inactive-status">غیرفعال</span>
+                </td>
+                <td>شیراز</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="hr"
+                data-gender="male"
+                data-id="24"
+                data-status="active"
+              >
+                <td class="emp-name">سامان توکلی</td>
+                <td class="emp-gender">مرد</td>
+                <td>منابع انسانی</td>
+                <td>Training Specialist</td>
+                <td data-value="29">29</td>
+                <td data-value="5">5</td>
+                <td class="emp-gross" data-toman="49000000">
+                  49,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="3430000">
+                  3,430,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="1000000">1,000,000 تومان</td>
+                <td class="emp-net" data-toman="44570000">44,570,000 تومان</td>
+                <td class="emp-rating" data-value="4.3">4.3</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>تهران</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="engineering"
+                data-gender="male"
+                data-id="25"
+                data-status="active"
+              >
+                <td class="emp-name">نیما شمس</td>
+                <td class="emp-gender">مرد</td>
+                <td>مهندسی</td>
+                <td>Cloud Engineer</td>
+                <td data-value="32">32</td>
+                <td data-value="7">7</td>
+                <td class="emp-gross" data-toman="82000000">
+                  82,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="5740000">
+                  5,740,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="2850000">2,850,000 تومان</td>
+                <td class="emp-net" data-toman="73410000">73,410,000 تومان</td>
+                <td class="emp-rating" data-value="4.8">4.8</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>تهران</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="engineering"
+                data-gender="female"
+                data-id="26"
+                data-status="active"
+              >
+                <td class="emp-name">ترانه یوسفی</td>
+                <td class="emp-gender">زن</td>
+                <td>مهندسی</td>
+                <td>Data Engineer</td>
+                <td data-value="29">29</td>
+                <td data-value="5">5</td>
+                <td class="emp-gross" data-toman="73500000">
+                  73,500,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="5145000">
+                  5,145,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="2400000">2,400,000 تومان</td>
+                <td class="emp-net" data-toman="65955000">65,955,000 تومان</td>
+                <td class="emp-rating" data-value="4.7">4.7</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>اصفهان</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="engineering"
+                data-gender="male"
+                data-id="27"
+                data-status="active"
+              >
+                <td class="emp-name">احسان باقری</td>
+                <td class="emp-gender">مرد</td>
+                <td>مهندسی</td>
+                <td>Frontend Developer</td>
+                <td data-value="27">27</td>
+                <td data-value="3">3</td>
+                <td class="emp-gross" data-toman="57000000">
+                  57,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="3990000">
+                  3,990,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="1500000">1,500,000 تومان</td>
+                <td class="emp-net" data-toman="51510000">51,510,000 تومان</td>
+                <td class="emp-rating" data-value="4.4">4.4</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>شیراز</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="engineering"
+                data-gender="female"
+                data-id="28"
+                data-status="active"
+              >
+                <td class="emp-name">آیدا نظری</td>
+                <td class="emp-gender">زن</td>
+                <td>مهندسی</td>
+                <td>Product Designer</td>
+                <td data-value="30">30</td>
+                <td data-value="6">6</td>
+                <td class="emp-gross" data-toman="62500000">
+                  62,500,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="4375000">
+                  4,375,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="1800000">1,800,000 تومان</td>
+                <td class="emp-net" data-toman="56325000">56,325,000 تومان</td>
+                <td class="emp-rating" data-value="4.6">4.6</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>تهران</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="engineering"
+                data-gender="male"
+                data-id="29"
+                data-status="inactive"
+              >
+                <td class="emp-name">سینا رجبی</td>
+                <td class="emp-gender">مرد</td>
+                <td>مهندسی</td>
+                <td>QA Automation Engineer</td>
+                <td data-value="34">34</td>
+                <td data-value="8">8</td>
+                <td class="emp-gross" data-toman="68000000">
+                  68,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="4760000">
+                  4,760,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="2100000">2,100,000 تومان</td>
+                <td class="emp-net" data-toman="61140000">61,140,000 تومان</td>
+                <td class="emp-rating" data-value="4.5">4.5</td>
+                <td>
+                  <span class="status-badge inactive-status">غیرفعال</span>
+                </td>
+                <td>کرج</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="engineering"
+                data-gender="female"
+                data-id="30"
+                data-status="active"
+              >
+                <td class="emp-name">مریم فتحی</td>
+                <td class="emp-gender">زن</td>
+                <td>مهندسی</td>
+                <td>Machine Learning Engineer</td>
+                <td data-value="31">31</td>
+                <td data-value="7">7</td>
+                <td class="emp-gross" data-toman="91000000">
+                  91,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="6370000">
+                  6,370,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="3350000">3,350,000 تومان</td>
+                <td class="emp-net" data-toman="81280000">81,280,000 تومان</td>
+                <td class="emp-rating" data-value="4.9">4.9</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>مشهد</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="engineering"
+                data-gender="male"
+                data-id="31"
+                data-status="active"
+              >
+                <td class="emp-name">پارسا زمانی</td>
+                <td class="emp-gender">مرد</td>
+                <td>مهندسی</td>
+                <td>Database Administrator</td>
+                <td data-value="36">36</td>
+                <td data-value="10">10</td>
+                <td class="emp-gross" data-toman="84500000">
+                  84,500,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="5915000">
+                  5,915,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="3000000">3,000,000 تومان</td>
+                <td class="emp-net" data-toman="75585000">75,585,000 تومان</td>
+                <td class="emp-rating" data-value="4.7">4.7</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>تبریز</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="engineering"
+                data-gender="female"
+                data-id="32"
+                data-status="active"
+              >
+                <td class="emp-name">غزل شریعتی</td>
+                <td class="emp-gender">زن</td>
+                <td>مهندسی</td>
+                <td>Backend Developer</td>
+                <td data-value="26">26</td>
+                <td data-value="3">3</td>
+                <td class="emp-gross" data-toman="59000000">
+                  59,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="4130000">
+                  4,130,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="1600000">1,600,000 تومان</td>
+                <td class="emp-net" data-toman="53270000">53,270,000 تومان</td>
+                <td class="emp-rating" data-value="4.5">4.5</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>رشت</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="engineering"
+                data-gender="male"
+                data-id="33"
+                data-status="active"
+              >
+                <td class="emp-name">میلاد سلطانی</td>
+                <td class="emp-gender">مرد</td>
+                <td>مهندسی</td>
+                <td>System Administrator</td>
+                <td data-value="38">38</td>
+                <td data-value="12">12</td>
+                <td class="emp-gross" data-toman="76500000">
+                  76,500,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="5355000">
+                  5,355,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="2550000">2,550,000 تومان</td>
+                <td class="emp-net" data-toman="68595000">68,595,000 تومان</td>
+                <td class="emp-rating" data-value="4.6">4.6</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>تهران</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="engineering"
+                data-gender="female"
+                data-id="34"
+                data-status="active"
+              >
+                <td class="emp-name">هانیه کمالی</td>
+                <td class="emp-gender">زن</td>
+                <td>مهندسی</td>
+                <td>Business Intelligence Analyst</td>
+                <td data-value="28">28</td>
+                <td data-value="4">4</td>
+                <td class="emp-gross" data-toman="54500000">
+                  54,500,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="3815000">
+                  3,815,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="1350000">1,350,000 تومان</td>
+                <td class="emp-net" data-toman="49335000">49,335,000 تومان</td>
+                <td class="emp-rating" data-value="4.3">4.3</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>قم</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="engineering"
+                data-gender="male"
+                data-id="35"
+                data-status="active"
+              >
+                <td class="emp-name">فرهاد نیک‌پی</td>
+                <td class="emp-gender">مرد</td>
+                <td>مهندسی</td>
+                <td>Software Architect</td>
+                <td data-value="41">41</td>
+                <td data-value="15">15</td>
+                <td class="emp-gross" data-toman="108000000">
+                  108,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="7560000">
+                  7,560,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="4300000">4,300,000 تومان</td>
+                <td class="emp-net" data-toman="96140000">96,140,000 تومان</td>
+                <td class="emp-rating" data-value="4.9">4.9</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>تهران</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="engineering"
+                data-gender="female"
+                data-id="36"
+                data-status="inactive"
+              >
+                <td class="emp-name">شادی مرادی</td>
+                <td class="emp-gender">زن</td>
+                <td>مهندسی</td>
+                <td>UX Researcher</td>
+                <td data-value="33">33</td>
+                <td data-value="7">7</td>
+                <td class="emp-gross" data-toman="66500000">
+                  66,500,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="4655000">
+                  4,655,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="2000000">2,000,000 تومان</td>
+                <td class="emp-net" data-toman="59845000">59,845,000 تومان</td>
+                <td class="emp-rating" data-value="4.4">4.4</td>
+                <td>
+                  <span class="status-badge inactive-status">غیرفعال</span>
+                </td>
+                <td>اصفهان</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="sales"
+                data-gender="male"
+                data-id="37"
+                data-status="active"
+              >
+                <td class="emp-name">کوروش کریمی</td>
+                <td class="emp-gender">مرد</td>
+                <td>فروش</td>
+                <td>Regional Sales Manager</td>
+                <td data-value="39">39</td>
+                <td data-value="13">13</td>
+                <td class="emp-gross" data-toman="83000000">
+                  83,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="5810000">
+                  5,810,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="2900000">2,900,000 تومان</td>
+                <td class="emp-net" data-toman="74290000">74,290,000 تومان</td>
+                <td class="emp-rating" data-value="4.8">4.8</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>تهران</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="sales"
+                data-gender="female"
+                data-id="38"
+                data-status="active"
+              >
+                <td class="emp-name">سمانه اکبری</td>
+                <td class="emp-gender">زن</td>
+                <td>فروش</td>
+                <td>Sales Expert</td>
+                <td data-value="27">27</td>
+                <td data-value="3">3</td>
+                <td class="emp-gross" data-toman="44500000">
+                  44,500,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="3115000">
+                  3,115,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="800000">800,000 تومان</td>
+                <td class="emp-net" data-toman="40585000">40,585,000 تومان</td>
+                <td class="emp-rating" data-value="4.2">4.2</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>کرج</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="sales"
+                data-gender="male"
+                data-id="39"
+                data-status="active"
+              >
+                <td class="emp-name">آرش فرهمند</td>
+                <td class="emp-gender">مرد</td>
+                <td>فروش</td>
+                <td>Key Account Manager</td>
+                <td data-value="35">35</td>
+                <td data-value="9">9</td>
+                <td class="emp-gross" data-toman="71000000">
+                  71,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="4970000">
+                  4,970,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="2250000">2,250,000 تومان</td>
+                <td class="emp-net" data-toman="63780000">63,780,000 تومان</td>
+                <td class="emp-rating" data-value="4.7">4.7</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>مشهد</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="sales"
+                data-gender="female"
+                data-id="40"
+                data-status="inactive"
+              >
+                <td class="emp-name">نیلوفر حسینی</td>
+                <td class="emp-gender">زن</td>
+                <td>فروش</td>
+                <td>Business Developer</td>
+                <td data-value="30">30</td>
+                <td data-value="5">5</td>
+                <td class="emp-gross" data-toman="58500000">
+                  58,500,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="4095000">
+                  4,095,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="1550000">1,550,000 تومان</td>
+                <td class="emp-net" data-toman="52855000">52,855,000 تومان</td>
+                <td class="emp-rating" data-value="4.4">4.4</td>
+                <td>
+                  <span class="status-badge inactive-status">غیرفعال</span>
+                </td>
+                <td>شیراز</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="sales"
+                data-gender="male"
+                data-id="41"
+                data-status="active"
+              >
+                <td class="emp-name">مهدی صفری</td>
+                <td class="emp-gender">مرد</td>
+                <td>فروش</td>
+                <td>Sales Analyst</td>
+                <td data-value="29">29</td>
+                <td data-value="5">5</td>
+                <td class="emp-gross" data-toman="52000000">
+                  52,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="3640000">
+                  3,640,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="1200000">1,200,000 تومان</td>
+                <td class="emp-net" data-toman="47160000">47,160,000 تومان</td>
+                <td class="emp-rating" data-value="4.5">4.5</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>تهران</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="sales"
+                data-gender="female"
+                data-id="42"
+                data-status="active"
+              >
+                <td class="emp-name">بهاره توکلی</td>
+                <td class="emp-gender">زن</td>
+                <td>فروش</td>
+                <td>Sales Expert</td>
+                <td data-value="25">25</td>
+                <td data-value="2">2</td>
+                <td class="emp-gross" data-toman="40500000">
+                  40,500,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="2835000">
+                  2,835,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="600000">600,000 تومان</td>
+                <td class="emp-net" data-toman="37065000">37,065,000 تومان</td>
+                <td class="emp-rating" data-value="4.1">4.1</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>تبریز</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="support"
+                data-gender="male"
+                data-id="43"
+                data-status="active"
+              >
+                <td class="emp-name">کامران رفیعی</td>
+                <td class="emp-gender">مرد</td>
+                <td>پشتیبانی</td>
+                <td>Technical Support</td>
+                <td data-value="33">33</td>
+                <td data-value="7">7</td>
+                <td class="emp-gross" data-toman="53500000">
+                  53,500,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="3745000">
+                  3,745,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="1300000">1,300,000 تومان</td>
+                <td class="emp-net" data-toman="48455000">48,455,000 تومان</td>
+                <td class="emp-rating" data-value="4.6">4.6</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>تهران</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="support"
+                data-gender="female"
+                data-id="44"
+                data-status="active"
+              >
+                <td class="emp-name">روژان کریمی</td>
+                <td class="emp-gender">زن</td>
+                <td>پشتیبانی</td>
+                <td>Support Expert</td>
+                <td data-value="24">24</td>
+                <td data-value="2">2</td>
+                <td class="emp-gross" data-toman="37500000">
+                  37,500,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="2625000">
+                  2,625,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="400000">400,000 تومان</td>
+                <td class="emp-net" data-toman="34475000">34,475,000 تومان</td>
+                <td class="emp-rating" data-value="4.2">4.2</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>اصفهان</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="support"
+                data-gender="male"
+                data-id="45"
+                data-status="inactive"
+              >
+                <td class="emp-name">نوید عباسی</td>
+                <td class="emp-gender">مرد</td>
+                <td>پشتیبانی</td>
+                <td>Support Expert</td>
+                <td data-value="28">28</td>
+                <td data-value="4">4</td>
+                <td class="emp-gross" data-toman="42000000">
+                  42,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="2940000">
+                  2,940,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="650000">650,000 تومان</td>
+                <td class="emp-net" data-toman="38410000">38,410,000 تومان</td>
+                <td class="emp-rating" data-value="4.0">4.0</td>
+                <td>
+                  <span class="status-badge inactive-status">غیرفعال</span>
+                </td>
+                <td>اهواز</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="support"
+                data-gender="female"
+                data-id="46"
+                data-status="active"
+              >
+                <td class="emp-name">الهه منصوری</td>
+                <td class="emp-gender">زن</td>
+                <td>پشتیبانی</td>
+                <td>Customer Success Expert</td>
+                <td data-value="31">31</td>
+                <td data-value="6">6</td>
+                <td class="emp-gross" data-toman="49500000">
+                  49,500,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="3465000">
+                  3,465,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="1050000">1,050,000 تومان</td>
+                <td class="emp-net" data-toman="44985000">44,985,000 تومان</td>
+                <td class="emp-rating" data-value="4.7">4.7</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>تهران</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="support"
+                data-gender="male"
+                data-id="47"
+                data-status="active"
+              >
+                <td class="emp-name">امیر رستگار</td>
+                <td class="emp-gender">مرد</td>
+                <td>پشتیبانی</td>
+                <td>Technical Support</td>
+                <td data-value="26">26</td>
+                <td data-value="3">3</td>
+                <td class="emp-gross" data-toman="45500000">
+                  45,500,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="3185000">
+                  3,185,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="850000">850,000 تومان</td>
+                <td class="emp-net" data-toman="41465000">41,465,000 تومان</td>
+                <td class="emp-rating" data-value="4.3">4.3</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>رشت</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="hr"
+                data-gender="female"
+                data-id="48"
+                data-status="active"
+              >
+                <td class="emp-name">فاطمه جعفری</td>
+                <td class="emp-gender">زن</td>
+                <td>منابع انسانی</td>
+                <td>HR Specialist</td>
+                <td data-value="30">30</td>
+                <td data-value="6">6</td>
+                <td class="emp-gross" data-toman="54000000">
+                  54,000,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="3780000">
+                  3,780,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="1300000">1,300,000 تومان</td>
+                <td class="emp-net" data-toman="48920000">48,920,000 تومان</td>
+                <td class="emp-rating" data-value="4.5">4.5</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>تهران</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="hr"
+                data-gender="male"
+                data-id="49"
+                data-status="active"
+              >
+                <td class="emp-name">سعید محمدی</td>
+                <td class="emp-gender">مرد</td>
+                <td>منابع انسانی</td>
+                <td>Recruiter</td>
+                <td data-value="27">27</td>
+                <td data-value="3">3</td>
+                <td class="emp-gross" data-toman="47500000">
+                  47,500,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="3325000">
+                  3,325,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="950000">950,000 تومان</td>
+                <td class="emp-net" data-toman="43225000">43,225,000 تومان</td>
+                <td class="emp-rating" data-value="4.3">4.3</td>
+                <td><span class="status-badge active-status">فعال</span></td>
+                <td>شیراز</td>
+              </tr>
+              <tr
+                class="employee-row"
+                data-department="hr"
+                data-gender="female"
+                data-id="50"
+                data-status="inactive"
+              >
+                <td class="emp-name">سپیده رضایی</td>
+                <td class="emp-gender">زن</td>
+                <td>منابع انسانی</td>
+                <td>Training Specialist</td>
+                <td data-value="34">34</td>
+                <td data-value="8">8</td>
+                <td class="emp-gross" data-toman="56500000">
+                  56,500,000 تومان
+                </td>
+                <td class="emp-insurance" data-toman="3955000">
+                  3,955,000 تومان
+                </td>
+                <td class="emp-tax" data-toman="1450000">1,450,000 تومان</td>
+                <td class="emp-net" data-toman="51095000">51,095,000 تومان</td>
+                <td class="emp-rating" data-value="4.6">4.6</td>
+                <td>
+                  <span class="status-badge inactive-status">غیرفعال</span>
+                </td>
+                <td>اصفهان</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="table-note">حقوق خالص = حقوق ناخالص - بیمه - مالیات</p>
+      </section>
+      <section class="section">
+        <h2>درباره داده‌ها</h2>
+        <p>
+          تمامی نام‌ها، حقوق، بیمه و مالیات این صفحه ساختگی و صرفاً برای تمرین
+          BeautifulSoup هستند.
+        </p>
+      </section>
+    </main>
+    <footer id="footer">
+      <p>تمامی اطلاعات این صفحه ساختگی و مخصوص تمرین هستند.</p>
+    </footer>
+  </body>
+</html>

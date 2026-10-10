@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Explore World</title>
+
+    <link rel="stylesheet" href="4.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Explore the World</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#places">Places</a>
+            <a href="#form">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <h2>Discover Beautiful Places</h2>
+
+            <p>
+                Explore amazing destinations and create
+                unforgettable memories.
+            </p>
+
+            <a href="#form" class="hero-button">
+                Get Started
+            </a>
+        </div>
+
+    </section>
+
+    <!-- Places Section -->
+
+    <section class="places" id="places">
+
+        <h2>Popular Destinations</h2>
+
+        <p class="section-description">
+            Choose your favorite destination and start your journey.
+        </p>
+
+        <div class="image-container">
+
+            <div class="image-card">
+
+                <img
+                    src="images.jpeg"
+                    alt="Italy"
+                >
+
+                <h3>Italy</h3>
+
+                <p>
+                    Discover beautiful streets and amazing views.
+                </p>
+
+            </div>
+
+            <div class="image-card">
+
+                <img
+                    src="11.jpeg"
+                    alt="Japan"
+                >
+
+                <h3>Japan</h3>
+
+                <p>
+                    Experience modern cities and traditional culture.
+                </p>
+
+            </div>
+
+            <div class="image-card">
+
+                <img
+                    src="2.jpeg"
+                    alt="Nature"
+                >
+
+                <h3>Nature</h3>
+
+                <p>
+                    Enjoy peaceful landscapes and fresh air.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Form Section -->
+
+    <section class="form-section" id="form">
+
+        <div class="form-box">
+
+            <h2>Plan Your Trip</h2>
+
+            <p>
+                Complete the form below to plan your next adventure.
+            </p>
+
+            <form id="travelForm" method="GET">
+
+                <label for="fullname">Full Name</label>
+
+                <input
+                    type="text"
+                    id="fullname"
+                    name="fullname"
+                    placeholder="Enter your full name"
+                    required
+                >
+
+                <label for="email">Email Address</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <label for="destination">Choose a Destination</label>
+
+                <select
+                    id="destination"
+                    name="destination"
+                    required
+                >
+
+                    <option value="">Select a destination</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Japan">Japan</option>
+                    <option value="France">France</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="Canada">Canada</option>
+
+                </select>
+
+                <div class="form-buttons">
+
+                    <button type="submit" class="submit-button">
+                        Submit
+                    </button>
+
+                    <button type="reset" class="clear-button">
+                        Clear
+                    </button>
+
+                </div>
+
+            </form>
+
+            <p id="message"></p>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 Explore World | Travel and Discover
+        </p>
+
+    </footer>
+
+    <script src="4.js"></script>
+
+</body>
+
+</html>
